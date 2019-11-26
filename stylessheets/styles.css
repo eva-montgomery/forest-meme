@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.picure-frame {
+  /*  height: 10px;
+    width: 10px; */
+}
+
+.picure-frame > img {
+    width: 100%
+}
+
+.poster {
+    position: relative;
+    height: 850px;
+    width: 850px;
+}
+
+.text1, .text2 {
+    position: absolute;
+    color: white;
+}
+
+.text1 {
+    left: 20px;
+    font-size: 55px;
+
+}
+
+.text2 {
+    bottom: 30px;
+    font-size: 40px;
+    left: 20px;
+}
